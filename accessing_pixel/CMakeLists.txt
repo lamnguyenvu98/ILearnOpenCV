@@ -20,3 +20,6 @@ TARGET_LINK_LIBRARIES(access_color ${OpenCV_LIBS})
 
 ADD_EXECUTABLE(change_to_gray change_to_gray.cpp)
 TARGET_LINK_LIBRARIES(change_to_gray ${OpenCV_LIBS})
+
+ADD_EXECUTABLE(threshold_access_method threshold_accesspixel.cpp)
+TARGET_LINK_LIBRARIES(threshold_access_method ${OpenCV_LIBS})

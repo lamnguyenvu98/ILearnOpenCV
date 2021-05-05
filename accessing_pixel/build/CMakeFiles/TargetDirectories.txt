@@ -1,6 +1,0 @@
-/home/pep/mega/learncv/accessing_pixel/build/CMakeFiles/rebuild_cache.dir
-/home/pep/mega/learncv/accessing_pixel/build/CMakeFiles/change_to_gray.dir
-/home/pep/mega/learncv/accessing_pixel/build/CMakeFiles/access_color.dir
-/home/pep/mega/learncv/accessing_pixel/build/CMakeFiles/edit_cache.dir
-/home/pep/mega/learncv/accessing_pixel/build/CMakeFiles/access_gray.dir
-/home/pep/mega/learncv/accessing_pixel/build/CMakeFiles/access_method.dir
