@@ -1,0 +1,8 @@
+%YAML:1.0
+---
+HueMin: 0
+HueMax: 179
+SatMin: 159
+SatMax: 255
+ValMin: 0
+ValMax: 255
