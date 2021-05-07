@@ -16,14 +16,16 @@ int main(int argc, char** argv)
         Vec3b* ptrRow = img.ptr<Vec3b>(row);
         for (int col = 0; col < img.cols; ++col)
         {
-                uchar med = ptrRow[col][0] + ptrRow[col][1] + ptrRow[col][2];
-            
+            // optimal gray value called luminosity has formula:
+            // 0.21*R + 0.72*G + 0.07*B
+            // in implementation opencv format is BGR
+            uchar med = 0.07*ptrRow[col][0] + 0.72*ptrRow[col][1] + 0.21*ptrRow[col][2];
             ptrRow[col] = {med, med, med};
         }
     }
     std::cout << "Img channels : " << img.channels() << std::endl;
     hconcat(src, img, stackimg);
-    imshow("Left: Source Image, Right: Image fake to grayscale", stackimg);
+    imshow("Left: Source Image | Right: Image fake to grayscale", stackimg);
     waitKey(0);
     return 0;
 }
