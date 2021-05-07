@@ -8,7 +8,9 @@ cd build
 
 make
 
-Ex: ./color_detection -f=../newconfig.yml -i=../images/car2.jpg
+Ex: 
+
+./color_detection -f=../newconfig.yml -i=../images/car2.jpg
 
 If yml already exist and want to use new parameter to detect color
 
